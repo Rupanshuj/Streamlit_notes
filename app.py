@@ -17,6 +17,9 @@ html_page = """
 """
 st.markdown(html_page,unsafe_allow_html=True)
 
+#file
+
+file = st.file_uploader("Pick a file")
 
 # Error text
 st.success("Successful")
